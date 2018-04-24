@@ -1,0 +1,62 @@
+//#########################################################
+
+[Session][Log]            dbgsession/dbg 2018-04-24 @ 00.24.45/dedicatedserver.log
+
+[Session][ID]             02f0-7e24-c018-b5ee
+[Session][Platform]       Linux
+[Session][Config]         Release
+[Session][Exe]            ./DedicatedServerCmd.elf
+[Session][ExeBit]         64
+[Session][Date]           24/04/2018
+[Session][Time]           00:24:45
+
+[Session][Exe Built]      Unknown
+[Session][Machine]        Unknown
+[Session][GCC Version]    4.8.2
+[Session][Toolset]        x86_64-pc-linux-gnu.GCC.4.8.2
+[Session][Title]          
+
+[Session][BuildVer]       
+[Session][BuildVerInt]    0
+[Session][BuildVerUnmod]  
+[Session][BuildVerSimple] 
+[Session][BuildVerInject] 
+[Session][BuildVerInjSim] 
+
+[Session][BaseVer]        v1.5.946.0
+
+//#########################################################
+
+[00:24:45:500][0xd8c4d780] [Info ] [BLogBase::Init] [Internal] Initialised Log
+[00:24:45:501][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Starting up the Dedicated Server Library.
+[00:24:45:502][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Server configuration loaded:
+- server build version: 1
+- protocol version: 62 (1.0.0.62)
+- server name: Masashi Test
+- max session size: 64
+- details: secure, bind IP INADDR_ANY, Steam port 8766, host port 27015, query port 27016, password protected no
+- whitelist size: 0
+- blacklist size: 0
+- lua api: enabled
+- http api: disabled
+- allow empty join: enabled
+- game setup control: disabled
+- sports play : disabled
+[00:24:45:545][0xd8c4d780] [Info ] [void NativeLogCallback] [General] HttpApi disabled
+[00:24:45:553][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_base'...
+[00:24:45:553][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Addon 'sms_base' does not have customized config available. Copying default config over to 'lua_config/sms_base_config.json', check it out to customize the addon if needed.
+[00:24:45:554][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_rotate'...
+[00:24:45:554][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'lib_rotate'...
+[00:24:45:554][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Addon 'lib_rotate' does not have customized config available. Copying default config over to 'lua_config/lib_rotate_config.json', check it out to customize the addon if needed.
+[00:24:45:554][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Addon 'sms_rotate' does not have customized config available. Copying default config over to 'lua_config/sms_rotate_config.json', check it out to customize the addon if needed.
+[00:24:45:555][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_motd'...
+[00:24:45:555][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Addon 'sms_motd' does not have customized config available. Copying default config over to 'lua_config/sms_motd_config.json', check it out to customize the addon if needed.
+[00:24:45:555][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_stats'...
+[00:24:45:555][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Addon 'sms_stats' does not have customized config available. Copying default config over to 'lua_config/sms_stats_config.json', check it out to customize the addon if needed.
+[00:24:45:556][0xd8c4d780] [Info ] [void NativeLogCallback] [General] LuaApi started
+[00:24:45:556][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Dedicated server is starting...
+[00:24:45:556][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[00:24:46:360][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Connection to Steam established
+[00:24:46:360][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Received public IP 50.207.28.118
+[00:24:46:511][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Server logged in with Steam id 90114348465186823 ; server is secure
+[00:24:46:511][0xd8c4d780] [Info ] [void NativeLogCallback] [General] Server startup finished: AppId 378860, public IP 50.207.28.118, Steam id 90114348465186823 ; switching to running state
