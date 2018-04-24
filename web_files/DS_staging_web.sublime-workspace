@@ -1,0 +1,911 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"remove",
+				"removeAttr"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"addOn",
+				"addOnChangeToWeatherSlots"
+			],
+			[
+				"Opp",
+				"OpponentField"
+			],
+			[
+				"mul",
+				"multiClassSlots"
+			],
+			[
+				"first",
+				"first_key"
+			],
+			[
+				"initialize_f",
+				"initialize_field_from_form"
+			],
+			[
+				"sub",
+				"subEntryAttribute"
+			],
+			[
+				"col-md",
+				"col-md-2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/sessionConfig.js",
+			"settings":
+			{
+				"buffer_size": 30331,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/webtool.css",
+			"settings":
+			{
+				"buffer_size": 4460,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "color",
+		"selected_items":
+		[
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"materia",
+				"Activate Materialize Theme"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings"
+			],
+			[
+				"save as",
+				"Project: Save As"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"project",
+				"Project: Refresh Folders"
+			],
+			[
+				"kyb",
+				"Preferences: Key Bindings"
+			],
+			[
+				"project op",
+				"Project: Edit Project"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax notes",
+				"Set Syntax: Notes"
+			],
+			[
+				"syntax note",
+				"Set Syntax: Note"
+			],
+			[
+				"syntax org",
+				"Set Syntax: orgmode"
+			],
+			[
+				"syntax c",
+				"Set Syntax: C"
+			],
+			[
+				"syntax json",
+				"Set Syntax: JSON"
+			],
+			[
+				"syntax todo",
+				"Set Syntax: ToDone"
+			],
+			[
+				"syntax mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"note",
+				"Set Syntax: Note"
+			],
+			[
+				"notes",
+				"Set Syntax: Notes"
+			],
+			[
+				"change colo",
+				"Notes: Change Color…"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"syntax markdow",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syntax: mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax: note",
+				"Set Syntax: Notes - Text"
+			],
+			[
+				"syntax: markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"org",
+				"Preferences: orgmode Settings – Default"
+			],
+			[
+				"notes:colo",
+				"Notes: Change Color…"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"una",
+				"Notes: Unarchive…"
+			],
+			[
+				"inbox",
+				"Notes: Inbox"
+			],
+			[
+				"multi",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"md",
+				"Set Syntax: Markdown"
+			],
+			[
+				"set orgom",
+				"Set Syntax: orgmode"
+			],
+			[
+				"syntax: org",
+				"Set Syntax: orgmode"
+			],
+			[
+				"change",
+				"Notes: Change Color…"
+			],
+			[
+				"change\t\t",
+				"Notes: Change Color…"
+			],
+			[
+				"wind",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"package contr",
+				"Package Control: Remove Package"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"todo",
+				"Set Syntax: ToDone"
+			],
+			[
+				"notes change",
+				"Notes: Change Color…"
+			],
+			[
+				"index",
+				"Notes: Index"
+			],
+			[
+				"change co",
+				"Notes: Change Color…"
+			],
+			[
+				"orgmode",
+				"Preferences: orgmode Settings – Default"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"install pak",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/K/Phoenix_Staging/depot/Phoenix/trunk/src/Tools/DedicatedServer/steam/content_common/web_files",
+		"/K/Phoenix_Staging/depot/Phoenix/trunk/src/Tools/DedicatedServer/steam/content_common/web_files/css",
+		"/K/Phoenix_Staging/depot/Phoenix/trunk/src/Tools/DedicatedServer/steam/content_common/web_files/js"
+	],
+	"file_history":
+	[
+		"/J/dev/gamesetup-prod.txt",
+		"/C/Users/pablazo/AppData/Local/Temp/p4v/pablazoconga_perforce.slightlymadstudios.com_1666/mobile/browser/social_server/server_data/cars2_gamesetup/gamesetup-prod#48.txt",
+		"/K/Phoenix_Staging/depot/Phoenix/trunk/src/Tools/DedicatedServer/steam/content_common/web_files/DS_staging_web.sublime-workspace",
+		"/C/Users/pablazo/p4tickets.txt",
+		"/J/pab/todos/sample.todo",
+		"/J/pab/todos/Notes/DS_attrbs_sweep.note",
+		"/J/pab/installers/bug.n-8.4.0/README.md",
+		"/J/pab/installers/bug.n-8.4.0/doc/Used_hotkeys.md",
+		"/Z/branches/Phoenix/Staging/depot/Phoenix/trunk/src/App/Include/BaseAppConfig/BaseAppConfig.hpp",
+		"/K/Phoenix_Staging/depot/Phoenix/trunk/src/Tools/DedicatedServer/DedicatedServerCmd/server.cfg",
+		"/J/Steam/steamapps/common/Project CARS 2 - Dedicated Server/server.cfg",
+		"/J/pab/todos/taurus/ContextGmRecipeOverrides.java",
+		"/J/pab/installers/bug.n-8.4.0/doc/User-hotkeys.md",
+		"/J/pab/installers/bug.n-8.4.0/doc/Default_hotkeys.md",
+		"/Z/mobile/browser/social_server/server_data/cars2_gamesetup/gamesetup-prod.txt",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix.srcdata/PULC/FunPack.hrdf",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix.srcdata/Tracks/_Data/tracklists/tracklist_Consoles.grp",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix.srcdata/Tracks/_Data/tracklists/tracklist_Consoles.lst",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix.srcdata/Tracks/_Data/tracklists/tracklist_default.grp",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix.srcdata/Tracks/_Data/tracklists/tracklist_default.lst",
+		"/Z/depot/Common/MWL/Base/Trunk/Src/Source/Core/_BaseLib/_BaseLib.cpp",
+		"/M/Phoenix_CertDemo/depot/Phoenix/trunk/src/Tools/DedicatedServer/steam/content_common/web_files/css/webtool.css",
+		"/J/pab/todos/Notes/MP Multitesting 26.10.17.note",
+		"/C/Users/pablazo/Documents/Project CARS 2/dbgSession/readme.txt",
+		"/J/pab/todos/Notes/note.note",
+		"/C/Users/pablazo/AppData/Roaming/Sublime Text 3/Packages/PlainNotes/Default (Windows).sublime-keymap",
+		"/J/pab/todos/Notes/.brain/Inbox.note",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/Vehicles/Lamborghini_Huracan_GT3/Lamborghini_Huracan_GT3.crd",
+		"/J/pab/todos/Notes/sql query export comm events titles.note",
+		"/C/Users/pablazo/Downloads/gsevents.xml",
+		"/K/Phoenix_Staging/data/Phoenix/trunk/Phoenix.srcdata/DLC/DLC_Config.xml",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix.srcdata/DLC/DLC_Config.xml",
+		"/J/dev/ftp_new_devs_nov17.txt",
+		"/K/Phoenix_Staging/data/Phoenix/trunk/Phoenix/Tracks/Brands_Hatch_Rallycross/Brands_Hatch_Rallycross.trd",
+		"/K/Phoenix_Staging/data/Phoenix/trunk/Phoenix/Tracks/Besos_Rx/Besos_Rx.trd",
+		"/C/Users/pablazo/Documents/ezvid/isinstalled.txt",
+		"/K/Phoenix_Staging/data/Phoenix/trunk/Temp/Phoenix/PC/PakFiles/dirInfo/dir/gui.xml",
+		"/K/Phoenix_Staging/data/Phoenix/trunk/Phoenix.srcdata/PULC/FunPack.hrdf",
+		"/M/Phoenix_CertDemo/data/Phoenix/trunk/Phoenix.srcdata/PULC/FunPack.hrdf",
+		"/J/dev/gamesetup-test-pablo.txt",
+		"/Z/branches/Phoenix/Staging/depot/Phoenix/trunk/src/App/App.env.props",
+		"/Z/branches/Phoenix/Staging/depot/Phoenix/trunk/src/App/App.env.pc.props",
+		"/Z/branches/Phoenix/Staging/depot/Phoenix/trunk/src/App/App.env.x64.props",
+		"/Z/branches/Phoenix/Staging/depot/Phoenix/trunk/src/App/App.root.props",
+		"/C/Users/pablazo/AppData/Local/Temp/7zO0FA496CF/FunPack.hrdf",
+		"/J/dev/PhoenixDS_web/files/js/jquery-ui-timepicker-addon.js",
+		"/J/dev/PhoenixDS_web/files/js/bootstrap.js",
+		"//Win-vcmjot1jakk/ds/Project CARS 2 - Dedicated Server/New Text Document.txt",
+		"/K/Phoenix_Staging/depot/Phoenix/trunk/src/App/App.env.props",
+		"/J/Perforce/pablom_cnga/data/Phoenix/trunk/Phoenix.srcdata/Vehicles/_Data/vehiclelists/vehiclelist_default.lst",
+		"/Z/data/Phoenix/trunk/Phoenix/DevModeConfig.xml",
+		"/L/videoedit/gloriosas1/content.txt",
+		"/Z/branches/Phoenix/Staging/depot/3rdParty/EasyAntiCheat/readme_native.txt",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/DevModeConfig.xml",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/FinalModeConfig.xml",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix.DVD/DevModeConfig.xml",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/Characters/crowds/Autumn/Clear/Dry/billboard_sitting/full/crowd_billboard_sitting_brands_hatch_03a_dep.xml",
+		"/C/Users/pablazo/AppData/Local/Temp/B3LT48B4.xml",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/Vehicles/Audi_R8_LMS15/Audi_R8_LMS15.rcf",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/Vehicles/Audi_R8_LMS15/Audi_R8_LMS15.crd",
+		"/K/Phoenix_Staging/data/Phoenix/trunk/Phoenix/Vehicles/Audi_R8_LMS15/Audi_R8_LMS15.crd",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix.srcdata/Vehicles/_Data/vehiclelists/vehiclelist_All_DLC.lst",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/Vehicles/Ford_RS200/Ford_RS200.crd",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/Vehicles/Citroen_DS3_RX/Citroen_DS3_RX.crd",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/Vehicles/Audi_S1_EKS/Audi_S1_EKS.crd",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/Vehicles/Audi_Sport_Quattro_S1/Audi_Sport_Quattro_S1.crd",
+		"/Z/branches/Phoenix/Staging/depot/Phoenix/trunk/src/Tools/DedicatedServer/lists/hack_textdb.sh",
+		"/Z/branches/Phoenix/Staging/depot/Phoenix/trunk/src/Tools/DedicatedServer/lists/hack_vehicle_list.sh",
+		"/C/Users/pablazo/Downloads/server.cfg",
+		"/Z/branches/Phoenix/Staging/depot/Phoenix/trunk/src/Tools/DedicatedServer/lists/hack_track_list.sh",
+		"/Z/branches/Phoenix/Staging/depot/Phoenix/trunk/src/Tools/DedicatedServer/lists/readme.txt",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/Vehicles/Renault_5_Maxi_Turbo/Renault_5_Maxi_Turbo.crd",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix.srcdata/Vehicles/_Data/vehiclelists/vehiclelist_default.lst",
+		"/Z/branches/Phoenix/Staging/depot/Phoenix/trunk/src/Tools/DedicatedServer/DedicatedServerCmd/server.cfg.old",
+		"/K/Phoenix_Staging/data/Phoenix/trunk/Phoenix.srcdata/PULC/TestDLCPack.hrdf",
+		"/Z/branches/Phoenix/Staging/depot/Phoenix/trunk/src/Tools/DedicatedServer/DedicatedServerCmd/server.cfg",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/Vehicles/Ford_Mustang_RTR_FD/Ford_Mustang_RTR_FD.crd",
+		"/K/Phoenix_Staging/data/Phoenix/trunk/Phoenix/Vehicles/Acura_NSX_GT3/Acura_NSX_GT3.crd",
+		"/K/Phoenix_Staging/data/Phoenix/trunk/Phoenix/Vehicles/Test_Car/Test_Car.crd",
+		"/K/Phoenix_Staging/data/Phoenix/trunk/Phoenix/Tracks/PhotoScene_LightRoom/PhotoScene_LightRoom.trd",
+		"/C/Users/pablazo/AppData/Local/Temp/p4v/pablazoconga_perforce.slightlymadstudios.com_1666/branches/Aries/Staging/data/Aries/trunk/Aries.srcdata/PULC/Liveries05#3.hrdf",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix.srcdata/PULC/TestDLCPack.hrdf",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix.srcdata/Tracks/_Data/tracklists/tracklist_All_DLC.lst",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix.srcdata/Tracks/_Data/tracklists/tracklist_WMD.lst",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix.srcdata/Tracks/_Data/tracklists/tracklist_WMD.grp",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix.srcdata/Tracks/_Data/tracklists/tracklist_All_DLC.grp",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/Vehicles/Ford_Mustang_66_RTR/Ford_Mustang_66_RTR_HR.rcf",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/Vehicles/Ford_Bronco_RTR/Ford_Bronco_RTR.crd",
+		"/K/Phoenix_Staging/data/Phoenix/trunk/Phoenix.srcdata/Tracks/_Data/tracklists/tracklist_default.lst",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/Tracks/Brands_Hatch_Rallycross/Brands_Hatch_Rallycross.trd",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix.srcdata/Properties/DLC.hrdf",
+		"/C/Users/pablazo/.VirtualBox/VirtualBox.xml",
+		"/E/ingles.txt",
+		"/C/Users/pablazo/AppData/Local/Temp/p4v/pablazoconga_localhost_1667/server/Tools/bin/deploy-tools-web#1.sh",
+		"/C/Users/pablazo/AppData/Local/Temp/p4v/pablazoconga_localhost_1667/server/Tools/bin/project-common#1.sh",
+		"/C/Users/pablazo/AppData/Local/Temp/p4v/pablazoconga_localhost_1667/server/Tools/ToolsWeb/config/database/database-deploy.dev#1.php",
+		"/C/Users/pablazo/AppData/Local/Temp/p4v/pablazoconga_localhost_1667/server/Tools/ToolsWeb/config/database/database-deploy.skid#1.php",
+		"/C/Users/pablazo/AppData/Local/Temp/p4v/pablazoconga_localhost_1667/server/Tools/ToolsWeb/config/database/local#1.php",
+		"/C/Users/pablazo/AppData/Local/Temp/7zO0963C40B/SOFTPORN.TXT",
+		"/C/Users/pablazo/AppData/Local/Temp/p4v/pablazoconga_perforce.slightlymadstudios.com_1666/data/Aries/trunk/Aries/Vehicles/LMP2_RWD_P20/LMP2_RWD_P20#4.crd",
+		"/C/Users/pablazo/AppData/Local/Temp/p4v/pablazoconga_perforce.slightlymadstudios.com_1666/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/Vehicles/Audi_R8_LMS15/Audi_R8_LMS15@=889228.rcf",
+		"/C/Users/pablazo/AppData/Local/Temp/p4v/pablazoconga_perforce.slightlymadstudios.com_1666/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/Vehicles/Audi_R8_LMS15/Audi_R8_LMS15#3.rcf",
+		"/Z/mobile/browser/social_server/server_data/cars2_gamesetup/gamesetup.txt",
+		"/J/Perforce/pablom_cnga/data/Phoenix/trunk/Phoenix/Vehicles/Ferrari_488_Challenge/Ferrari_488_Challenge.crd",
+		"/J/Perforce/pablom_cnga/data/Phoenix/trunk/Phoenix/Vehicles/Citroen_DS3_RX/Citroen_DS3_RX.crd",
+		"/Z/data/Phoenix/trunk/Phoenix.srcdata/DLC/TestDLCPack/Vehicles/_Data/vehiclelists/vehiclelist_TestDLCPack.lst",
+		"/K/Phoenix_Staging/data/Phoenix/trunk/Phoenix.srcdata/Vehicles/_Data/vehiclelists/vehiclelist_default.lst",
+		"/K/Phoenix_Staging/data/Phoenix/trunk/Phoenix/Vehicles/Nissan_Skyline_BNR32_GroupA/Nissan_Skyline_BNR32_GroupA.crd",
+		"/Z/branches/Phoenix/Staging/depot/Phoenix/trunk/src/App/Include/BaseAppConfig/_forceConfig.hpp",
+		"/C/Users/pablazo/Documents/Project CARS 2/dbgSession/Dbg 2017-08-21 @ 19.34.22/mwlbugsplat.0x00003270.dmp.txt",
+		"/K/Phoenix_Staging/data/Phoenix/trunk/Phoenix/Tracks/_Data/tracklist.lst",
+		"/C/Users/pablazo/AppData/Local/Temp/p4v/pablazoconga_perforce.slightlymadstudios.com_1666/branches/Aries/Staging/data/Aries/trunk/Aries.srcdata/Championships/CareerInvitations#7.hrdf",
+		"/C/Users/pablazo/AppData/Local/Temp/p4v/pablazoconga_perforce.slightlymadstudios.com_1666/branches/Aries/Staging/data/Aries/trunk/Aries.srcdata/Championships/Career/Invitations/DLC/DLC_Renault_Masters_Trophy#1.inc",
+		"/C/Users/pablazo/AppData/Local/Temp/p4v/pablazoconga_perforce.slightlymadstudios.com_1666/branches/Aries/Staging/data/Aries/trunk/Aries.srcdata/Championships/Invitations/DLC/DLC_Renault_Masters_Trophy#1.inc",
+		"/C/Users/pablazo/AppData/Local/Temp/p4v/pablazoconga_perforce.slightlymadstudios.com_1666/branches/Aries/Staging/data/Aries/trunk/Aries.srcdata/PULC/RenaultSport#3.hrdf",
+		"/C/Users/pablazo/AppData/Local/Temp/p4v/pablazoconga_perforce.slightlymadstudios.com_1666/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix/Vehicles/Ford_Mustang_66_RTR/Ford_Mustang_66_RTR_HR#4.rcf",
+		"/Z/branches/Phoenix/Staging/data/Phoenix/trunk/Phoenix.DVD/FinalModeConfig.xml",
+		"/J/dev/steamworks_sdk_141/sdk/tools/ContentBuilder/scripts/eac_depot_378860.vdf",
+		"/K/Phoenix_Staging/data/Phoenix/trunk/Phoenix.srcdata/Properties/DLC.hrdf",
+		"/Z/mobile/browser/social_server/server_data/events/scripts/readme.txt",
+		"/Z/mobile/browser/social_server/server_data/events/scripts/vehicles.csv",
+		"/J/Perforce/pablom_cnga/branches/Phoenix/Staging/depot/3rdParty/EasyAntiCheat/include/GameClient.h",
+		"/Z/branches/Phoenix/Staging/depot/3rdParty/EasyAntiCheat/include/GameClient.h",
+		"/K/Phoenix_Staging/depot/3rdParty/EasyAntiCheat/include/GameClient.h",
+		"/K/Phoenix_Staging/depot/3rdParty/EasyAntiCheat/readme_native.txt",
+		"/Z/branches/Phoenix/Staging/depot/Phoenix/trunk/src/Tools/DedicatedServer/doc/list.txt",
+		"/J/dev/gameoutput_22aug17.txt",
+		"/K/Phoenix_Staging/data/Phoenix/trunk/Phoenix.DVD/gameoutput.txt"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"VehicleClassCheckbox",
+			"class",
+			"checked",
+			"alert",
+			"on(\"chan",
+			"brands hatch",
+			"Offroad on Brands ",
+			"Offroad on Brands Hatch ",
+			"toggleWeatherSlots",
+			"toggle",
+			"hide",
+			"toggleWeatherSlots",
+			"slider",
+			"weather",
+			"weatherSelect",
+			"attribut",
+			"4",
+			"updateVehicleClassField",
+			"vehicleClass\"",
+			"vehicleClass",
+			"classes"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/sessionConfig.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21695,
+								21695
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8316.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/webtool.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4460,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4385,
+								4385
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2962.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.jotter":
+	{
+		"height": 98.0
+	},
+	"output.markdown":
+	{
+		"height": 96.0
+	},
+	"pinned_build_system": "",
+	"project": "DS_staging_web.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"grid",
+				"taurus\\ContextGmRecipeOverrides.java"
+			],
+			[
+				"hrfd",
+				"C:\\Users\\pablazo\\AppData\\Local\\Temp\\7zO0FA496CF\\FunPack.hrdf"
+			],
+			[
+				"gameadmin_mod",
+				"application\\models\\gameadmin_model.php"
+			],
+			[
+				"gamesetup_helper",
+				"application\\helpers\\gamesetup_helper.php"
+			],
+			[
+				"gamesetup_event",
+				"application\\helpers\\gamesetup_event_helper.php"
+			],
+			[
+				"gameadmin",
+				"application\\models\\gameadmin_model.php"
+			],
+			[
+				"gamesetup_help",
+				"application\\helpers\\gamesetup_helper.php"
+			],
+			[
+				"accountba",
+				"bin\\com\\mwl\\gmweb\\files\\template\\accountBadgeAdd.html"
+			],
+			[
+				"",
+				"sessionConfig2.html"
+			],
+			[
+				"statusedit2",
+				"statusEdit2.html"
+			],
+			[
+				"statusedit",
+				"statusEdit.html"
+			],
+			[
+				"cur",
+				"Notes\\current_work.note"
+			],
+			[
+				"dail",
+				"DAILY CODE CHANGES.note"
+			],
+			[
+				"curre",
+				"Notes\\current_work.note"
+			],
+			[
+				"logco",
+				"GM_logComponents_logic.note"
+			],
+			[
+				"log",
+				"GM_logComponents_logic.note"
+			],
+			[
+				"logc",
+				"GM_logComponents_logic.note"
+			],
+			[
+				"note",
+				"Notes\\note.note"
+			],
+			[
+				"loc",
+				"GM_logComponents_logic.note"
+			],
+			[
+				"notes",
+				"general.notes"
+			],
+			[
+				"not",
+				"Notes\\note.note"
+			],
+			[
+				"logcom",
+				"GM_logComponents_logic.note"
+			],
+			[
+				"gm_log",
+				"GM_logs.note"
+			],
+			[
+				"gm",
+				"GM_usages_raw"
+			],
+			[
+				"curr",
+				"Notes\\current_work.note"
+			],
+			[
+				"raw",
+				"GM_usages_raw"
+			],
+			[
+				"sni",
+				"CSS snipplets.note"
+			],
+			[
+				"pac",
+				"Package Control Messages"
+			],
+			[
+				"general",
+				"general.notes"
+			],
+			[
+				"sample.",
+				"Notes\\sample.note"
+			],
+			[
+				"trac",
+				"GM_usages_tracked.todo"
+			],
+			[
+				"todo_home",
+				"todo_home.txt"
+			],
+			[
+				"todo.tod",
+				"todo.todo"
+			],
+			[
+				"gen",
+				"general.notes"
+			],
+			[
+				"gm_",
+				"GM_usages_tracked.todo"
+			],
+			[
+				"index",
+				"✎ Notes Index"
+			],
+			[
+				"key",
+				"Notes\\note_keybindings.note"
+			],
+			[
+				"keyb",
+				"Notes\\.archive\\note_keybindings.note"
+			],
+			[
+				"note_ke",
+				"Notes\\note_keybindings.note"
+			],
+			[
+				"sam",
+				"Notes\\sample.note"
+			],
+			[
+				"pagin",
+				"Notes\\pagination_js.note"
+			],
+			[
+				"note.note",
+				"Notes\\note.note"
+			],
+			[
+				"pagi",
+				"Notes\\pagination_js.note"
+			],
+			[
+				"gn",
+				"general.notes"
+			],
+			[
+				"samp",
+				"Notes\\sample.note"
+			],
+			[
+				"note.",
+				"Notes\\note.note"
+			],
+			[
+				"gm_usa",
+				"GM_usages_tracked.todo"
+			],
+			[
+				"gmprofil",
+				"GmProfileSession.java"
+			],
+			[
+				"gm_usagetra",
+				"GM_usages_tracked.todo"
+			],
+			[
+				"ea",
+				"C:\\Users\\pablazo\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\EasyMotion.sublime-settings"
+			],
+			[
+				"test.org",
+				"test.org"
+			],
+			[
+				"gmprofile",
+				"GmProfileSession.java"
+			],
+			[
+				"inbox.note",
+				"Notes\\.brain\\Inbox.note"
+			],
+			[
+				"sample.not",
+				"Notes\\sample.note"
+			],
+			[
+				"sample.note",
+				"Notes\\sample.note"
+			],
+			[
+				"packa",
+				"Package Control Messages"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "pho",
+		"selected_items":
+		[
+			[
+				"pho",
+				"J:\\dev\\PhoenixDS_web\\phoenixds_web.sublime-project"
+			],
+			[
+				"ph",
+				"J:\\dev\\PhoenixDS_web\\phoenixds_web.sublime-project"
+			],
+			[
+				"",
+				"K:\\Phoenix_Staging\\depot\\Phoenix\\trunk\\src\\Tools\\DedicatedServer\\steam\\content_common\\web_files\\DS_staging_web.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"isu",
+				"issue with leaderboards update"
+			],
+			[
+				"issues",
+				"ISSUES CAUSED BY SERVER NOT UPDATED WITH DLC CONTENT"
+			],
+			[
+				"",
+				"ISSUES CAUSED BY SERVER NOT UPDATED WITH DLC CONTENT"
+			]
+		],
+		"width": 410.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
