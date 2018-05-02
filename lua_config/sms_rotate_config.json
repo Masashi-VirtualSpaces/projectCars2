@@ -19,7 +19,7 @@ config : {
 	// - The setup should never contain both VehicleModelId and VehicleClassId at the same time. Restrict either the class or specific vehicle.
 	// - The Flags attribute should never contain FORCE_IDENTICAL_VEHICLES or FORCE_SAME_VEHICLE_CLASS flags, those are decided automatically.
 	"default" : {
-		"PracticeLength" : 0,
+		"PracticeLength" : 1,
 		"QualifyLength" : 0,
 		"RaceLength" : 3,
 
@@ -56,23 +56,34 @@ config : {
 	// setup instead of adding them to it (which is what the Flags attribute will do)
 	"rotation" : [
 		{
-			// Any Road B car on Brands, 5 minutes qualify then 3 lap race
-			"TrackId" : "Brands Hatch Indy",
-			"VehicleClassId" : "Road B",
-			"QualifyLength" : 5
-		},
-		{
 			// Formula C on Silverstone with silly time/weather settings. 10 minutes qualify then 5 lap race.
-			"TrackId" : "Silverstone GP",
-			"VehicleModelId" : "Formula C",
+			"TrackId" : "Indianapolis Motor Speedway Oval",
+			"VehicleModelId" : "BMW M1 Procar",
+			"PracticeLength" : 1,
 			"QualifyLength" : 10,
-			"RaceLength" : 5,
+			"RaceLength" : 3,
 			"RaceDateHour" : 4,
 			"RaceWeatherSlots" : 4,
 			"RaceWeatherSlot1" : "Clear",
 			"RaceWeatherSlot2" : "MediumCloud",
 			"RaceWeatherSlot3" : "Storm",
 			"RaceWeatherSlot4" : "LightCloud",
-		}
+			"AllowedViews" : 2,
+		},
+		{
+			// Formula C on Silverstone with silly time/weather settings. 10 minutes qualify then 5 lap race.
+			"TrackId" : "Bathurst Mount Panorama",
+			"VehicleModelId" : "Mini Countryman RX",
+			"PracticeLength" : 1,
+			"QualifyLength" : 10,
+			"RaceLength" : 3,
+			"RaceDateHour" : 4,
+			"RaceWeatherSlots" : 4,
+			"RaceWeatherSlot1" : "Clear",
+			"RaceWeatherSlot2" : "MediumCloud",
+			"RaceWeatherSlot3" : "Storm",
+			"RaceWeatherSlot4" : "LightCloud",
+			"AllowedViews" : 2,
+		},
 	]
 }
